@@ -271,8 +271,9 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #fff;
   width: 20px;
   height: 20px;
@@ -280,13 +281,8 @@ ol {
 
 .search-form__pseudo-checkbox::before {
   content: '';
-  position: absolute;
   width: 14px;
   height: 14px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: auto;
   background: #fff;
   display: none;
 }
