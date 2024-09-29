@@ -187,6 +187,7 @@ ol {
 
 .content__video-card-thumbnail {
   max-width: 194px;
+  object-fit: cover;
 }
 /* Секция контента */
 
